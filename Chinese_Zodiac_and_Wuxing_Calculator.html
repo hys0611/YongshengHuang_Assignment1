@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chinese zodiac and Wuxing calculator</title>
+<!-- To link a external js -->
+<script src="Chinese_Zodiac_and_Wuxing_Calculator.js"></script>
+<link rel="stylesheet" type="text/css" href="./Chinese_Zodiac_and_Wuxing_Calculator.css" />
+</head>
+<body>
+	<div id="div-head">
+		<h1 id="title">Chinese zodiac and Wuxing calculator</h1>
+	</div>
+	<div id="div-form">
+		<form action="" onsubmit="return validateForm();" name="form" id="form">
+			<!-- Setting the choice of date -->
+			<font size="5px">Date</font> <select id="date" name="date">
+				<option selected>01</option>
+				<option>02</option>
+				<option>03</option>
+				<option>04</option>
+				<option>05</option>
+				<option>06</option>
+				<option>07</option>
+				<option>08</option>
+				<option>09</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+				<option>15</option>
+				<option>16</option>
+				<option>17</option>
+				<option>18</option>
+				<option>19</option>
+				<option>20</option>
+				<option>21</option>
+				<option>22</option>
+				<option>23</option>
+				<option>24</option>
+				<option>25</option>
+				<option>26</option>
+				<option>27</option>
+				<option>28</option>
+				<option>29</option>
+				<option>30</option>
+				<option>31</option>
+			</select>
+			<!-- Setting the choices of Month -->
+			<font size="5px">&nbsp;&nbsp;Month</font> <select id="month"
+				name="month">
+				<option value="01" selected>JAN</option>
+				<option value="02">FEB</option>
+				<option value="03">MAR</option>
+				<option value="04">APR</option>
+				<option value="05">MAY</option>
+				<option value="06">JUN</option>
+				<option value="07">JUL</option>
+				<option value="08">AUG</option>
+				<option value="09">SEPT</option>
+				<option value="10">OCT</option>
+				<option value="11">NOV</option>
+				<option value="12">DEC</option>
+			</select> <font size="5px">&nbsp;&nbsp;Year</font> <input type="text"
+				name="year" placeholder="From:XXXX(>1900)" id="year"> &nbsp;&nbsp;<input
+				type="submit" value="Search">
+		</form>
+
+	</div>
+	<div class="div-z">
+	<!--zodiac description  -->
+		<h2>Chinese Zodiac</h2>
+		<p>The Chinese zodiac is the classification scheme that assigns an
+			animal to each year in a repeating twelve-year cycle. The 12-year
+			cycle of Chinese zodiac is an approximation to the 11.86-year cycle
+			of Jupiter, the largest planet of the solar system.It is a scheme and
+			systematic plan of future action that relates each year to an animal
+			and its reputed attributes according to a 12-year cycle. It remains
+			popular in several East Asiancountries including China, Vietnam,
+			Korea, Japan, Philippines, Thailand and Taiwan.</p>
+		<br />
+		<p>
+			The 12 Chinese Zodiac animals are in a fixed order according to
+			Chinese Yin and Yang Theory and perceived attributes. The yin or the
+			yang of the animals is defined based on the odd or even number of
+			their claws (or toes, hoofs). The animals are then arranged in an
+			alternating yin-yang sequence. Usually an animal has is the same
+			number of claws on its front and rear legs. However the rat has four
+			toes on its fore legs and five on its hind legs. As the old saying
+			goes, “a thing is valued in proportion to its rarity”, so the Rat
+			ranks first of the 12 zodiac animals. It uniquely combines the
+			attributes of odd (yang) and even (yin). 4+5=9, and yang is dominant,
+			so the Rat is classified as odd (yang) overall.<span
+				data-showtip="Dr Zai, J. Taoism and Science: Cosmology, Evolution, Morality, Health and more. Ultravisum, 2015.">[1]</span>
+		</p>
+	</div>
+	<div class="div-img1">
+		<img alt="" src="zodiac.jpg" class="img"
+			title="China Highlights,http://images.chinahighlights.com/allpicture/2016/09/64e579f60b044c01bc894b32_300x300.jpg">
+	</div>
+	<div class="div-w">
+		<!--wuxing description  -->
+		<h2>Wuxing</h2>
+		<p>
+			Whereas Western thought developed the idea of elements as subtsances,
+			and Indian thought as emenations, Chinese philosophy conceived of the
+			five elements, or Wu Xing, as dynamic states of change. The concept
+			of Wu Xing is central to all elements of Chinese thought, including
+			science, philosophy, medicine, astrology, andFengshui. The Wu Xing,
+			also known as the Five Elements, Five Phases, the Five Agents, the
+			Five Movements, Five Processes, the Five Steps/Stages and the Five
+			Planets is the short form of "Wǔ zhǒng liúxíng zhī qì" or "the five
+			types of chi dominating at different times".<span
+				data-showtip="M.Alan Kazlev, 'Wu Xing the Five States of Change', page 16, July 1999 ">[2]</span>
+			It is a fivefold conceptual scheme that many traditional Chinese
+			fields used to explain a wide array of phenomena, from cosmic cycles
+			to the interaction between internal organs, and from the succession
+			of political regimes to the properties of medicinal drugs. The "Five
+			Phases" are Wood, Fire, Earth, Metal, and Water. This order of
+			presentation is known as the "mutual generation" sequence. In the
+			order of "mutual overcoming", they are Wood, Earth, Water, Fire, and
+			Metal.<span
+				data-showtip="Deng Yu, Zhu Shuanli, Xu Peng and Deng Hai, '五行阴阳的特征与新英译' [Characteristics and a New English Translation of Wu Xing and Yin-Yang]. Chinese Journal of Integrative Medicine. 20 (12): 937.">[3]</span>
+			<span
+				data-showtip="Deng Yu et al; Fresh Translator of Zang Xiang Fractal five System，Chinese Journal of Integrative Medicine; 1999">[4]</span>
+			<span
+				data-showtip=" Deng Yu et al，TCM Fractal Sets中医分形集，Journal of Mathematical Medicine ，1999，12（3），264-265">[5]</span>
+		</p>
+		<div class="div-img2">
+			<img alt="" src="wuxing.jpg" class="img2"
+				title="Wikipedia,https://upload.wikimedia.org/wikipedia/commons/9/91/Wu_Xing.png">
+		</div>
+	</div>
+</body>
+</html>
